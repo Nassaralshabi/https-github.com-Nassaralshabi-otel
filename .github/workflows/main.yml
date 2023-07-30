@@ -1,0 +1,41 @@
+- name: PHP Test - Laravel
+  # You may pin to the exact commit or the version.
+  # uses: mokeseven7/buildphp@c341bce4f7102740698c784717bd7612ebf04cf1
+  uses: mokeseven7/buildphp@v2
+  with:
+    # What version of PHPUnit to use
+    version: # optional, default is latest
+    # What version of PHP to use
+    php_version: # optional, default is latest
+    # Space separated list of extensions to configure with the PHP build
+    php_extensions: # optional
+    # Configuration file location
+    configuration: # optional
+    # JUnit output file location
+    log_junit: # optional
+    # JUnit output file location
+    log_teamcity: # optional
+    # JUnit output file location
+    testdox_html: # optional
+    # JUnit output file location
+    testdox_text: # optional
+    # JUnit output file location
+    testdox_xml: # optional
+    # Memory limit
+    memory_limit: # optional
+    # Path to bootstrap file
+    bootstrap: # optional
+    # Filter which tests to run
+    filter: # optional
+    # Specify a testsuite to run
+    testsuite: # optional
+    # Only runs tests from the specified group(s)
+    group: # optional
+    # Exclude tests from the specified group(s)
+    exclude_group: # optional
+    # Only search for test in files with specified suffix(es)
+    test_suffix: # optional, default is Test.php,.phpt
+    # Path to directory to whitelist for code coverage analysis
+    whitelist: # optional
+    # Extra arguments to pass to the phpunit binary
+    args: # optional
